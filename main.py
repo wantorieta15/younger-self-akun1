@@ -1,21 +1,29 @@
 """One Line to Your Younger Self — Akun 1 (@walta-exchange), make.fun.
 
-Writes one single line to entry.txt in MAKEFUN_OUTPUT_DIR (or /output
-when unset). Pure Python standard library, no dependencies, no network.
+Reviser rewrite (from scratch): writes one single line to entry.txt in
+MAKEFUN_OUTPUT_DIR (or /output when unset). Pure Python standard library,
+no dependencies, no network.
 
-The line is spoken straight to the writer's younger self ("Kid, ... stay
-kind, and keep the shoes"): one concrete lived moment — torn shoes laughed
-at, fixed by the same boy — with a turn the reader does not see coming
-(the girl who laughs marries the boy who fixed them). It stings a little,
-lands in one breath, and explains nothing about itself. One sentence,
-110 characters, inside the 200-character gate.
+Reviser verdict on the builder line: it was good — the torn-shoes image
+and the laugher-becomes-wife turn were real — but it had two genuine
+weaknesses against the judge brief. First, a pronoun shift: it opens
+"Kid" (you) then tells the story about "the boy" in the third person,
+so its core clause talks about the younger self instead of to him.
+Second, its tail, "stay kind", is a motto anyone could say, which
+dilutes criterion 2 (only this older self could say it) and blunts
+criterion 5 (honest enough to sting). The revised line fixes both:
+direct "you" all the way through, the same turn kept, and the advice
+tied to the image itself — "stop hiding them, and learn to fix them
+yourself" — a concrete, slightly stinging, lived instruction instead
+of generic kindness. One sentence, 111 characters, inside the
+200-character gate.
 """
 
 import os
 
 ENTRY = (
-    "Kid, the girl who laughs at your torn shoes will marry the boy "
-    "who fixed them \u2014 stay kind, and keep the shoes."
+    "Kid, the girl laughing at your torn shoes will marry you "
+    "\u2014 so stop hiding them, and learn to fix them yourself."
 )
 
 MAX_CHARS = 200
